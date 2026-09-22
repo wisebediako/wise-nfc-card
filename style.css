@@ -29,13 +29,6 @@ body {
     rgba(212, 175, 55, 0.14) 0%,
     rgba(212, 175, 55, 0.04) 28%,
     transparent 60%
-  ),
-  linear-gradient(
-    120deg,
-    #000000 0%,
-    #050505 45%,
-    #0d0b05 70%,
-    #000000 100%
   );
 
   color: var(--white);
@@ -49,7 +42,7 @@ body {
 
   background:
     radial-gradient(
-      circle at 10% 5%,
+      ellipse at 85% 80%
       rgba(212, 175, 55, 0.16) 0%,
       rgba(212, 175, 55, 0.05) 22%,
       transparent 45%

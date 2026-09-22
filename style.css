@@ -46,14 +46,30 @@ body {
 
 .card {
   width: min(100%, 440px);
-  background: linear-gradient(145deg, #151515, #080808);
-  border: 1px solid var(--line);
+
+  background:
+    radial-gradient(
+      circle at 10% 5%,
+      rgba(212, 175, 55, 0.16) 0%,
+      rgba(212, 175, 55, 0.05) 22%,
+      transparent 45%
+    ),
+    linear-gradient(
+      145deg,
+      #1f1a0d 0%,
+      #151515 35%,
+      #0b0b0b 70%,
+      #050505 100%
+    );
+
+  border: 1px solid rgba(212, 175, 55, 0.32);
   border-radius: 30px;
   padding: 30px 22px 26px;
   text-align: center;
+
   box-shadow:
     0 25px 70px rgba(0, 0, 0, 0.65),
-    inset 0 1px 0 rgba(255, 255, 255, 0.04);
+    inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 
 .logo {

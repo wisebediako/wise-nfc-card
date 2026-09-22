@@ -17,12 +17,19 @@ body {
   min-height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
 
-  background: linear-gradient(
-    135deg,
+  background:
+  radial-gradient(
+    circle at 20% 15%,
+    rgba(212, 175, 55, 0.22) 0%,
+    rgba(212, 175, 55, 0.08) 22%,
+    transparent 48%
+  ),
+  linear-gradient(
+    145deg,
     #000000 0%,
-    #17130a 45%,
-    #3a2b08 75%,
-    #080808 100%
+    #0b0b0b 42%,
+    #171208 72%,
+    #000000 100%
   );
 
   color: var(--white);

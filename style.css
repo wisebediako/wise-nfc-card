@@ -19,16 +19,22 @@ body {
 
   background:
   radial-gradient(
-    circle at 20% 15%,
-    rgba(212, 175, 55, 0.22) 0%,
-    rgba(212, 175, 55, 0.08) 22%,
-    transparent 48%
+    ellipse at 15% 20%,
+    rgba(212, 175, 55, 0.18) 0%,
+    rgba(212, 175, 55, 0.06) 25%,
+    transparent 55%
+  ),
+  radial-gradient(
+    ellipse at 85% 80%,
+    rgba(212, 175, 55, 0.14) 0%,
+    rgba(212, 175, 55, 0.04) 28%,
+    transparent 60%
   ),
   linear-gradient(
-    145deg,
+    120deg,
     #000000 0%,
-    #0b0b0b 42%,
-    #171208 72%,
+    #050505 45%,
+    #0d0b05 70%,
     #000000 100%
   );
 

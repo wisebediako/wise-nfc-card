@@ -22,13 +22,13 @@ body {
     ellipse at 15% 20%,
     rgba(212, 175, 55, 0.18) 0%,
     rgba(212, 175, 55, 0.06) 25%,
-    transparent 55%
+    transparent 20%
   ),
   radial-gradient(
     ellipse at 85% 80%,
     rgba(212, 175, 55, 0.14) 0%,
     rgba(212, 175, 55, 0.04) 28%,
-    transparent 60%
+    transparent 30%
   );
 
   color: var(--white);
